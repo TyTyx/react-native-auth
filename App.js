@@ -1,8 +1,8 @@
 import React from 'react';
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 import * as firebase from 'firebase'; // 4.6.2
-import { Input } from './components/Input';
-import { Button } from './components/Button';
+import { Input } from './Input';
+import { Button } from './Button';
 
 export default class App extends React.Component {
   state = {
